@@ -52,3 +52,8 @@ wheels/
 python/folio/_folio*.so
 python/folio/_folio*.pyd
 python/folio/_folio*.dylib
+
+# Demo materials: dist/ holds compiled binaries (Folio.app, .dmg, .whl)
+# rebuildable from source. demo/outputs/ stays tracked so visitors can
+# preview Folio's output without running the toolchain.
+demo/dist/
